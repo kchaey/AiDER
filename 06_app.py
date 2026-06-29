@@ -84,7 +84,7 @@ with col2:
                     # --- 3단계: YOLO 병변 검출 ---
                     from ultralytics import YOLO
                     try:
-                        weights_path = "runs/detect/acne04_yolov8s/weights/best.pt" 
+                        weights_path = "best_yolo.pt" 
                         if not os.path.exists(weights_path):
                             weights_path = "yolov8n.pt" # 임시 모델
                         model = YOLO(weights_path)
