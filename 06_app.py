@@ -20,7 +20,7 @@ def load_module(name, path):
 qc = load_module("qc", "02_quality_check.py")
 det = load_module("det", "03_yolo_detect_and_roi.py")
 cls = load_module("cls", "04_cnn_classify_and_aggregate.py")
-fusion = load_module("fusion", "05_lifestyle_fusion_up.py") # 필요한 경우 로드
+fusion = load_module("fusion", "05_lifestyle_fusion.py") # 필요한 경우 로드
 
 # --------------------------------------------------------------------------
 # UI 레이아웃 시작
